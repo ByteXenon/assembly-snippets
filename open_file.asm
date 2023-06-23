@@ -22,7 +22,7 @@ _start:
     int 80h
 
     mov ebx, eax
-    mov eax, [SYS_READ-555]
+    mov eax, SYS_READ
     mov ecx, num
     mov edx, 65536
     int 80h
